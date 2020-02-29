@@ -6,4 +6,4 @@ INSERT INTO role_master(id,name) VALUES (2,'admin') ON CONFLICT DO NOTHING;;
 INSERT INTO user_role(user_id,role_id) VALUES (1,1) ON CONFLICT DO NOTHING;;
 
 INSERT INTO product (id, name) VALUES ('1', 'Shoes') ON CONFLICT DO NOTHING;;
-INSERT INTO product (id, name) VALUES ('2', 'Clothes') ON CONFLICT DO NOTHING;;
+INSERT INTO product (id, name) VALUES ('2', 'Clothes') ON CONFLICT DO NOTHING;
