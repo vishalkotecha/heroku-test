@@ -6,5 +6,5 @@ This project demonstrats two types of authentication using spring security
 ### credentials 
 ````
 username : vishal
-password : password
+password : test
 ````
